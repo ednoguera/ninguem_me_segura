@@ -51,10 +51,44 @@ const ThumbHeader = styled.figure`
     padding-top: 2.5%;
 `
 
+
+//ICON SECTION
+
+
+const IconContainer = styled.div`
+    width: 324px;
+    height: 310px;
+    border: 2px solid #969696;
+    border-radius: 10px;
+    opacity: 1;
+    margin: 72px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-size: 18px;
+        color: #fff;
+        width: 283px; 
+    }
+`
+
+const Section = styled.section`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 412px;
+    background-color: #171717;
+`
+
 export {
     FormContainer,
     HeaderApp,
     TitleContainer,
     SubTitleContainer,
-    ThumbHeader
+    ThumbHeader,
+    IconContainer,
+    Section
 }
