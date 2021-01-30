@@ -178,6 +178,38 @@ const FooterSection = styled.footer`
     }
 `
 
+//HEADER TYP SECTION
+
+const HeaderTypSection = styled.header`
+    background-color: #121212;
+    height: 718px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        color: #fff;
+        font-size: 36px;
+        text-align: center;
+    }
+    
+
+    button {
+        color: #fff;
+        width: 300px;
+        height: 64px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+
+        margin: 34px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+`
+
 export {
     FormContainer,
     HeaderApp,
@@ -194,5 +226,6 @@ export {
     HashSection,
     HashStyle,
     TextContainer,
-    FooterSection
+    FooterSection,
+    HeaderTypSection
 }

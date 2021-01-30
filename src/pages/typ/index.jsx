@@ -1,12 +1,33 @@
 import React from 'react'
+import HeaderTyp from '../../components/header_typ/'
+import Footer from '../../components/footer/'
+import logo from '../../components/assets/img/logo/logo.svg'
+import instagram from '../../components/assets/img/social/insta.png'
+import youtube from '../../components/assets/img/social/youtube.png'
+import linkedin from '../../components/assets/img/social/linkedin.png'
 
 
 const ThankYouPage = () => {
+
+    const url = "https://www.youtube.com/embed/E9HUaPeDY24"
+
+    const youtubeChannel = "https://www.youtube.com/c/KenzieAcademyBrasil"
+
+    const colors = {
+        "cian": "#00D3F6",
+        "purple": "#A337CB"
+    }
+
     return (
         <>
-            <h1>
-                Thank You Page
-            </h1>
+            <HeaderTyp title="SIGA OS PASSOS ABAIXO PARA CONFIRMAR SUA PARTICIPAÇÃO" url={url} urlYoutube={youtubeChannel} ctaTelegram="Entrar em nossa comunidade no telegram" ctaYoutube="Inscreva-se em nosso canal no Youtube"
+                styleBtnTelegram={{
+                    "backgroundColor": colors.cian
+                }}
+                styleBtnYoutube={{
+                    "backgroundColor": colors.purple
+                }} />
+            <Footer logo={logo} instagram={instagram} youtube={youtube} linkedin={linkedin} copyrights="Copyrights 2020 Kenzie All right Reserved" />
         </>
     )
 }
