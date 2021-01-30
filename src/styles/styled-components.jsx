@@ -158,6 +158,26 @@ const TextContainer = styled.div`
     }
 `
 
+
+//FOOTER SECTION
+
+const FooterSection = styled.footer`
+    background-color: #171717;
+    height: 327px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    div {
+        margin: 10px;
+    }
+    
+    p {
+        color: #fff;
+    }
+`
+
 export {
     FormContainer,
     HeaderApp,
@@ -173,5 +193,6 @@ export {
     Divisor,
     HashSection,
     HashStyle,
-    TextContainer
+    TextContainer,
+    FooterSection
 }
