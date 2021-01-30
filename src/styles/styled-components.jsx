@@ -24,8 +24,6 @@ const FormContainer = styled.div`
 
 const TitleContainer = styled.div`
     height: 242px;
-    /*padding-top: 50px;
-    padding-left: 155px;*/
     width: 560px;
     
     
@@ -99,6 +97,8 @@ const PreFooterSection = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    
 `
 
 const PreFooterGroup = styled.div`
@@ -106,6 +106,14 @@ const PreFooterGroup = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    @media (min-width: 320px) and (max-width: 1740px) {
+        width: 100%;
+
+        p {
+            width: 70%;
+        }
+    }
 `
 
 const TitleImgContainer = styled.div`
@@ -123,8 +131,12 @@ const TitleImgContainer = styled.div`
 const Divisor = styled.div`
     width: 2px;
     height: 250px;
-    margin: 5rem 0 0 2rem;
+    margin: 5rem 0 0 0rem;
     background-color: #fff;
+
+    @media (min-width: 1900px) and (max-width: 4000px) {
+        margin: 5rem 0 0 4rem;
+    }
 `
 
 const HashSection = styled.div`
@@ -137,6 +149,13 @@ const HashStyle = styled.div`
     font-weight: 900;
     color: #fff;
     margin: 0 0 0 2rem;
+`
+
+const TextContainer = styled.div`
+    p {
+        width: 380px;
+        text-align: left;
+    }
 `
 
 export {
@@ -153,5 +172,6 @@ export {
     TitleImgContainer,
     Divisor,
     HashSection,
-    HashStyle
+    HashStyle,
+    TextContainer
 }
