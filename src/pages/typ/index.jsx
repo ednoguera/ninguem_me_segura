@@ -12,6 +12,7 @@ const ThankYouPage = () => {
     const url = "https://www.youtube.com/embed/E9HUaPeDY24"
 
     const youtubeChannel = "https://www.youtube.com/c/KenzieAcademyBrasil"
+    const telegramEvent = "https://t.me/semanaZeroAoJS"
 
     const colors = {
         "cian": "#00D3F6",
@@ -20,7 +21,7 @@ const ThankYouPage = () => {
 
     return (
         <>
-            <HeaderTyp title="SIGA OS PASSOS ABAIXO PARA CONFIRMAR SUA PARTICIPAÇÃO" url={url} urlYoutube={youtubeChannel} ctaTelegram="Entrar em nossa comunidade no telegram" ctaYoutube="Inscreva-se em nosso canal no Youtube"
+            <HeaderTyp title="SIGA OS PASSOS ABAIXO PARA CONFIRMAR SUA PARTICIPAÇÃO" url={url} urlYoutube={youtubeChannel} urlTelegram={telegramEvent} ctaTelegram="Entrar em nossa comunidade no telegram" ctaYoutube="Inscreva-se em nosso canal no Youtube"
                 styleBtnTelegram={{
                     "backgroundColor": colors.cian
                 }}
