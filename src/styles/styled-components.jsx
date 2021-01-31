@@ -12,6 +12,14 @@ const HeaderApp = styled.header`
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    @media (min-width: 320px) and (max-width: 375px) {
+        flex-direction: column;
+
+        img {
+            display: none;
+        }
+    }
 `
 
 
@@ -33,6 +41,14 @@ const TitleContainer = styled.div`
         text-align: left;
         font-weight: bold;
     }
+
+    @media (min-width: 320px) and (max-width: 375px) {
+        width: 300px;
+
+        p {
+            font-size: 16px;
+        }
+    }
 `
 
 const SubTitleContainer = styled.div`
@@ -48,6 +64,14 @@ const SubTitleContainer = styled.div`
         color: #fff;
         font-size: 18px;
         padding-left: 30px;
+    }
+
+    @media (min-width: 320px) and (max-width: 375px) {
+        width: 300px;
+
+        p {
+            font-size: 14px;
+        }
     }
 `
 
