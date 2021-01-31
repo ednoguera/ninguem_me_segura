@@ -13,7 +13,7 @@ const HeaderApp = styled.header`
     flex-direction: row;
     justify-content: center;
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         flex-direction: column;
         height: 400px;
 
@@ -26,7 +26,7 @@ const HeaderApp = styled.header`
 
 const FormContainer = styled.div`
     
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         padding-top: 0;
         height: 150px;
     }
@@ -45,7 +45,7 @@ const TitleContainer = styled.div`
         font-weight: bold;
     }
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         width: 80%;
         height: 150px;
         margin: 5% 0 5% 10%;
@@ -72,7 +72,7 @@ const SubTitleContainer = styled.div`
         padding-left: 30px;
     }
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         width: 300px;
         margin-bottom: 1rem;
 
@@ -89,10 +89,8 @@ const ThumbHeader = styled.figure`
 
 
 //ICON SECTION
-
-
 const IconContainer = styled.div`
-    width: 320px;
+    width: 300px;
     height: 310px;
     border: 2px solid #969696;
     border-radius: 10px;
@@ -110,7 +108,7 @@ const IconContainer = styled.div`
         width: 283px; 
     }
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
        margin: 12px;
        width: 280px;
     }
@@ -123,7 +121,7 @@ const Section = styled.section`
     height: 412px;
     background-color: #171717;
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         display: flex;
         flex-direction: column;
         height: 800px;
@@ -141,7 +139,7 @@ const PreFooterSection = styled.section`
     justify-content: center;
     align-items: center;
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         flex-direction: column;
         height: 850px;
     }
@@ -154,7 +152,7 @@ const PreFooterGroup = styled.div`
     flex-wrap: wrap;
     justify-content: center;
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         flex-direction: column;
 
         p {
@@ -182,7 +180,7 @@ const TitleImgContainer = styled.div`
         width: 500px;
     }
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         flex-direction: column;
         justify-content: center;
         margin: 0;
@@ -211,7 +209,7 @@ const Divisor = styled.div`
         margin: 5rem 0 0 4rem;
     }
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         display: none;
     }
 `
@@ -220,7 +218,7 @@ const HashSection = styled.div`
     display: flex;
     margin: 1rem;
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         flex-direction: column;
         width: 250px;
     }
@@ -232,7 +230,7 @@ const HashStyle = styled.div`
     color: #fff;
     margin: 0 0 0 2rem;
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         display: flex;
         font-size: 18px;
         margin: 0 0 0 0.5rem;
@@ -245,7 +243,7 @@ const TextContainer = styled.div`
         text-align: left;
     }
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         
         p {
             width: 280px;
@@ -303,6 +301,18 @@ const HeaderTypSection = styled.header`
         font-size: 18px;
         font-weight: bold;
     }
+
+    @media (min-width: 300px) and (max-width: 425px) {
+        height: 900px;
+
+        h2 {
+            font-size: 26px;
+        }
+
+        button {
+            width: 70%;
+        }
+    }
 `
 
 //Form style settings
@@ -310,7 +320,7 @@ const Form = styled.form`
     display: flex;
     flex-direction: column;
     
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         width: 100%;
         height: 250px;
         padding: 0;
@@ -329,7 +339,7 @@ const Input = styled.input`
     border: 2px solid #969696;
     width: 400px;
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         height: 52px;
         width: 80%;
         font-size: 20px;
@@ -350,7 +360,7 @@ const Button = styled.button`
     color: #fff;
     font-weight: bold;
 
-    @media (min-width: 320px) and (max-width: 425px) {
+    @media (min-width: 300px) and (max-width: 425px) {
         height: 52px;
         width: 82.5%;
         margin-left: 10%;

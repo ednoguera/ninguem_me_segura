@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HashtagSection from '../../components/hashtag-section/'
 import { HeaderTypSection } from '../../styles/styled-components'
 import { motion } from 'framer-motion'
+import useWindowSize from '../../helper/use-window-hook'
 
 const HeaderTyp = props => {
+    const { width } = useWindowSize()
+
     return (
         <HeaderTypSection>
             <div>
                 <h2>{props.title}</h2>
             </div>
-            <iframe width="560" height="315" src={props.url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            {width > 425 ? <iframe width="560" height="315" src={props.url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> : <iframe width="300" height="169" src={props.url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}
 
             <div>
                 <motion.a href={props.urlTelegram} target="_blank" >
