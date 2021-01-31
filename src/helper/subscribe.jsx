@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom'
+import { FormContainer, Form, Input, Button } from '../styles/styled-components'
 
 const Subscribe = () => {
     const [email, setEmail] = useState()
@@ -54,12 +55,12 @@ const Subscribe = () => {
     }
 
     return (
-        <div>
-            <form onSubmit={handleSubmit}>
-                <input type="text" value={email} onChange={dispatchEmail} />
-                <button>Fazer meu cadastro</button>
-            </form>
-        </div>
+        <FormContainer>
+            <Form onSubmit={handleSubmit}>
+                <Input type="text" value={email} onChange={dispatchEmail} />
+                <Button>Fazer meu cadastro</Button>
+            </Form>
+        </FormContainer>
     )
 }
 
