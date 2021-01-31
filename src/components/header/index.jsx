@@ -15,15 +15,6 @@ const Header = (props) => {
                     <p>{props.title}</p>
                 </TitleContainer>
                 <FormContainer>
-                    {/* <NewHubspotForm
-                        portalId='6600573'
-                        formId='e975bc32-753f-492b-b9c6-d5d45545e106'
-                        cssClass="hubspot-form"
-                        submitButtonClass="button-form"
-                        onSubmit={() => console.log('Submit!')}
-                        onReady={(form) => console.log('Form ready!')}
-                        loading={<div>Loading...</div>}
-                    /> */}
                     {
                         <Subscribe />
                     }

@@ -13,8 +13,9 @@ const HeaderApp = styled.header`
     flex-direction: row;
     justify-content: center;
 
-    @media (min-width: 320px) and (max-width: 375px) {
+    @media (min-width: 320px) and (max-width: 425px) {
         flex-direction: column;
+        height: 470px;
 
         img {
             display: none;
@@ -24,9 +25,11 @@ const HeaderApp = styled.header`
 
 
 const FormContainer = styled.div`
-    width: 560px;
-    /*padding-left: 155px;
-    padding-top: 20px;*/
+    
+    @media (min-width: 320px) and (max-width: 425px) {
+        padding-top: 0;
+        height: 150px;
+    }
     
 `
 
@@ -42,11 +45,13 @@ const TitleContainer = styled.div`
         font-weight: bold;
     }
 
-    @media (min-width: 320px) and (max-width: 375px) {
-        width: 300px;
+    @media (min-width: 320px) and (max-width: 425px) {
+        width: 250px;
+        margin: 50px 0 0 1rem;
 
         p {
             font-size: 16px;
+            width: 300px;
         }
     }
 `
@@ -66,7 +71,7 @@ const SubTitleContainer = styled.div`
         padding-left: 30px;
     }
 
-    @media (min-width: 320px) and (max-width: 375px) {
+    @media (min-width: 320px) and (max-width: 425px) {
         width: 300px;
 
         p {
@@ -84,7 +89,7 @@ const ThumbHeader = styled.figure`
 
 
 const IconContainer = styled.div`
-    width: 324px;
+    width: 320px;
     height: 310px;
     border: 2px solid #969696;
     border-radius: 10px;
@@ -101,6 +106,11 @@ const IconContainer = styled.div`
         color: #fff;
         width: 283px; 
     }
+
+    @media (min-width: 320px) and (max-width: 425px) {
+       margin: 12px;
+       width: 280px;
+    }
 `
 
 const Section = styled.section`
@@ -109,6 +119,12 @@ const Section = styled.section`
     justify-content: center;
     height: 412px;
     background-color: #171717;
+
+    @media (min-width: 320px) and (max-width: 425px) {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
 `
 
 //PRE FOOTER SECTION
@@ -122,6 +138,10 @@ const PreFooterSection = styled.section`
     justify-content: center;
     align-items: center;
 
+    @media (min-width: 320px) and (max-width: 425px) {
+        flex-direction: column;
+        height: 850px;
+    }
     
 `
 
@@ -131,7 +151,15 @@ const PreFooterGroup = styled.div`
     flex-wrap: wrap;
     justify-content: center;
 
-    @media (min-width: 320px) and (max-width: 1740px) {
+    @media (min-width: 320px) and (max-width: 425px) {
+        flex-direction: column;
+
+        p {
+            width: 90%;
+        }
+    }
+
+    @media (min-width: 426px) and (max-width: 1740px) {
         width: 100%;
 
         p {
@@ -150,6 +178,22 @@ const TitleImgContainer = styled.div`
         color: #fff;
         width: 500px;
     }
+
+    @media (min-width: 320px) and (max-width: 425px) {
+        flex-direction: column;
+        margin: 0;
+        width: 80%;
+
+        p {
+            font-size: 16px;
+            color: #fff;
+            width: 300px;
+        }
+
+        figure {
+           padding-right: 40%; 
+        }
+    }
 `
 
 const Divisor = styled.div`
@@ -161,11 +205,20 @@ const Divisor = styled.div`
     @media (min-width: 1900px) and (max-width: 4000px) {
         margin: 5rem 0 0 4rem;
     }
+
+    @media (min-width: 320px) and (max-width: 425px) {
+        display: none;
+    }
 `
 
 const HashSection = styled.div`
     display: flex;
     margin: 1rem;
+
+    @media (min-width: 320px) and (max-width: 425px) {
+        flex-direction: column;
+        width: 250px;
+    }
 `
 
 const HashStyle = styled.div`
@@ -173,12 +226,25 @@ const HashStyle = styled.div`
     font-weight: 900;
     color: #fff;
     margin: 0 0 0 2rem;
+
+    @media (min-width: 320px) and (max-width: 425px) {
+        display: flex;
+        font-size: 18px;
+        margin: 0 0 0 0.5rem;
+    }
 `
 
 const TextContainer = styled.div`
     p {
         width: 380px;
         text-align: left;
+    }
+
+    @media (min-width: 320px) and (max-width: 425px) {
+        
+        p {
+            width: 280px;
+        }
     }
 `
 
@@ -234,6 +300,58 @@ const HeaderTypSection = styled.header`
     }
 `
 
+//Form style settings
+const Form = styled.form`
+    display: flex;
+    flex-direction: column;
+    
+    @media (min-width: 320px) and (max-width: 425px) {
+        width: 300px;
+        height: 250px;
+        padding: 0;
+    }
+`
+
+const Input = styled.input`
+    height: 64px;
+    margin: 0 0 1rem 0;
+    border-radius: 10px;
+    outline: none;
+    font-size: 30px; 
+    color: #fff;
+    font-weight: bold;
+    background-color: #3C3C3C;
+    border: 2px solid #969696;
+    width: 400px;
+
+    @media (min-width: 320px) and (max-width: 425px) {
+        height: 52px;
+        width: 250px;
+        font-size: 20px;
+        margin-left: 10%;
+    }
+`
+
+const Button = styled.button`
+    height: 64px;
+    width: 410px;
+    background-color: #A337CB;
+    outline: none;
+    border: none;
+    background-color: #A337CB;
+    border-radius: 10px;
+    
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+
+    @media (min-width: 320px) and (max-width: 425px) {
+        height: 52px;
+        width: 260px;
+        margin-left: 10%;
+    }
+`
+
 export {
     FormContainer,
     HeaderApp,
@@ -251,5 +369,8 @@ export {
     HashStyle,
     TextContainer,
     FooterSection,
-    HeaderTypSection
+    HeaderTypSection,
+    Form,
+    Input,
+    Button
 }
