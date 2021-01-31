@@ -15,7 +15,7 @@ const HeaderApp = styled.header`
 
     @media (min-width: 320px) and (max-width: 425px) {
         flex-direction: column;
-        height: 470px;
+        height: 400px;
 
         img {
             display: none;
@@ -46,12 +46,13 @@ const TitleContainer = styled.div`
     }
 
     @media (min-width: 320px) and (max-width: 425px) {
-        width: 250px;
-        margin: 50px 0 0 1rem;
+        width: 80%;
+        height: 150px;
+        margin: 5% 0 5% 10%;
 
         p {
             font-size: 16px;
-            width: 300px;
+            width: 100%;
         }
     }
 `
@@ -73,9 +74,11 @@ const SubTitleContainer = styled.div`
 
     @media (min-width: 320px) and (max-width: 425px) {
         width: 300px;
+        margin-bottom: 1rem;
 
         p {
             font-size: 14px;
+            width: 100%;
         }
     }
 `
@@ -181,6 +184,7 @@ const TitleImgContainer = styled.div`
 
     @media (min-width: 320px) and (max-width: 425px) {
         flex-direction: column;
+        justify-content: center;
         margin: 0;
         width: 80%;
 
@@ -191,7 +195,8 @@ const TitleImgContainer = styled.div`
         }
 
         figure {
-           padding-right: 40%; 
+           margin: 1rem;
+           padding: 40px 0 0 0;
         }
     }
 `
@@ -306,7 +311,7 @@ const Form = styled.form`
     flex-direction: column;
     
     @media (min-width: 320px) and (max-width: 425px) {
-        width: 300px;
+        width: 100%;
         height: 250px;
         padding: 0;
     }
@@ -326,7 +331,7 @@ const Input = styled.input`
 
     @media (min-width: 320px) and (max-width: 425px) {
         height: 52px;
-        width: 250px;
+        width: 80%;
         font-size: 20px;
         margin-left: 10%;
     }
@@ -347,7 +352,7 @@ const Button = styled.button`
 
     @media (min-width: 320px) and (max-width: 425px) {
         height: 52px;
-        width: 260px;
+        width: 82.5%;
         margin-left: 10%;
     }
 `
