@@ -196,7 +196,7 @@ const PreFooterSection = styled.section`
 
     @media (min-width: 300px) and (max-width: 1024px) {
         flex-direction: column;
-        height: 800px;
+        height: 850px;
     }
     
 `
@@ -225,6 +225,7 @@ const TitleImgContainer = styled.div`
         font-size: 18px;
         color: #fff;
         width: 500px;
+        line-height: 1.6;
     }
 
     @media (min-width: 300px) and (max-width: 1024px) {
