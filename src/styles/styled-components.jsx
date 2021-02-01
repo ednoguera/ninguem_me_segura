@@ -15,7 +15,7 @@ const HeaderApp = styled.header`
 
     @media (min-width: 300px) and (max-width: 1024px) {
         flex-direction: column;
-        height: 400px;
+        height: 500px;
 
         img {
             display: none;
@@ -47,11 +47,11 @@ const TitleContainer = styled.div`
 
     @media (min-width: 300px) and (max-width: 1024px) {
         width: 100%;
-        height: 150px;
+        height: 250px;
         margin: 0 auto;
 
         p {
-            font-size: 16px;
+            font-size: 20px;
             width: 280px;
             margin: 0 auto;
         }
@@ -180,6 +180,12 @@ const Section = styled.section`
         display: flex;
         flex-direction: column;
         height: 800px;
+
+        p {
+            font-size: 16px;
+            width: 90%;
+            line-height: 1.4;
+        }
     }
 `
 
@@ -196,7 +202,7 @@ const PreFooterSection = styled.section`
 
     @media (min-width: 300px) and (max-width: 1024px) {
         flex-direction: column;
-        height: 850px;
+        height: 950px;
     }
     
 `
