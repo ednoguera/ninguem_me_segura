@@ -281,6 +281,7 @@ const HeaderTypSection = styled.header`
         color: #fff;
         font-size: 36px;
         text-align: center;
+        width: 850px;
     }
     
 
@@ -292,16 +293,17 @@ const HeaderTypSection = styled.header`
         border: none;
         outline: none;
 
-        margin: 34px;
+        margin: 16px;
         font-size: 18px;
         font-weight: bold;
     }
 
     @media (min-width: 300px) and (max-width: 1024px) {
-        height: 900px;
+        height: 700px;
 
         h2 {
             font-size: 26px;
+            width: 100%;
         }
 
         button {
