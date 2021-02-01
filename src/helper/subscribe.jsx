@@ -57,7 +57,7 @@ const Subscribe = () => {
     return (
         <FormContainer>
             <Form onSubmit={handleSubmit}>
-                <Input type="text" value={email} onChange={dispatchEmail} />
+                <Input type="text" value={email} onChange={dispatchEmail} placeholder="Insira aqui o seu melhor e-mail" />
                 <Button>Fazer meu cadastro</Button>
             </Form>
         </FormContainer>

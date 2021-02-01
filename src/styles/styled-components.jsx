@@ -382,7 +382,7 @@ const Input = styled.input`
     margin: 0 0 1rem 0;
     border-radius: 10px;
     outline: none;
-    font-size: 30px; 
+    font-size: 20px; 
     color: #fff;
     font-weight: bold;
     background-color: #3C3C3C;
@@ -392,7 +392,8 @@ const Input = styled.input`
     @media (min-width: 300px) and (max-width: 1024px) {
         height: 52px;
         width: 264px;
-        font-size: 20px;
+        font-size: 16px;
+        text-align: center;
         margin: 0 auto;
     }
 `
