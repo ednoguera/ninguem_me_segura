@@ -453,7 +453,8 @@ const Button = styled.button`
     border: none;
     background-color: #A337CB;
     border-radius: 10px;
-    
+
+    cursor: pointer;
     font-size: 20px;
     color: #fff;
     font-weight: bold;
