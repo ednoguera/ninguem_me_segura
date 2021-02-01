@@ -46,7 +46,7 @@ const TitleContainer = styled.div`
     }
 
     @media (min-width: 300px) and (max-width: 1024px) {
-        width: 80%;
+        width: 100%;
         height: 150px;
         margin: 0 auto;
 
@@ -63,14 +63,13 @@ const SubTitleContainer = styled.div`
     width: 350px;
     
     img {
-        
+        margin-right: 2rem;    
     }
 
     p {
         text-align: left;
         color: #fff;
         font-size: 18px;
-        padding-left: 1rem;
     }
 
     @media (min-width: 300px) and (max-width: 1024px) {
@@ -79,9 +78,8 @@ const SubTitleContainer = styled.div`
 
         p {
             font-size: 14px;
-            width: 300px;
+            width: 250px;
             margin: 0 auto;
-            padding-left: 0 auto;
         }
     }
 `
@@ -193,8 +191,8 @@ const TitleImgContainer = styled.div`
         }
 
         figure {
-           margin: 1rem;
-           padding: 40px 0 0 0;
+           margin-bottom: 1rem;
+           padding: 0 0 0 0;
         }
     }
 `
@@ -341,7 +339,7 @@ const Input = styled.input`
 
     @media (min-width: 300px) and (max-width: 1024px) {
         height: 52px;
-        width: 294px;
+        width: 264px;
         font-size: 20px;
         margin: 0 auto;
     }
@@ -362,7 +360,7 @@ const Button = styled.button`
 
     @media (min-width: 300px) and (max-width: 1024px) {
         height: 52px;
-        width: 300px;
+        width: 270px;
         margin: 1rem auto;
     }
 `
