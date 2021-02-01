@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import HashtagSection from '../../components/hashtag-section/'
 import { HeaderTypSection } from '../../styles/styled-components'
 import { motion } from 'framer-motion'
