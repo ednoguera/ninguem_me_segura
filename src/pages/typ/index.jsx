@@ -21,7 +21,7 @@ const ThankYouPage = () => {
 
     return (
         <>
-            <HeaderTyp title={textTitle} url={url} urlYoutube={youtubeChannel} urlTelegram={telegramEvent} ctaTelegram="Entrar em nossa comunidade no telegram" ctaYoutube="Inscreva-se em nosso canal no Youtube"
+            <HeaderTyp title={textTitle} itemList1="1. Inscreva-se em nosso canal do Youtube para ser avisado de todas as nossas lives e receber alertas de novos conteúdos postados em nosso canal." itemList2="2. Entre no seu e-mail agora e abra o email de boas vindas que enviamos. Recomendo colocar uma estrela amarela, favoritar este e-mail e mudar o e-mail para sua caixa de entrada para que o seu servidor entenda que as nossas mensagens são importantes para você. (confira caixa de spam e caixa de promoções)" text="Fazendo essas duas etapas, você não perde os melhores conteúdos para entrar na programação!" url={url} urlYoutube={youtubeChannel} urlTelegram={telegramEvent} ctaTelegram="Entrar em nossa comunidade no telegram" ctaYoutube="Inscreva-se em nosso canal no Youtube"
                 styleBtnTelegram={{
                     "backgroundColor": cian
                 }}
