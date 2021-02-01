@@ -330,7 +330,7 @@ const FooterSection = styled.footer`
 
 const HeaderTypSection = styled.header`
     background-color: #121212;
-    height: 718px;
+    height: 518px;
 
     display: flex;
     flex-direction: column;
@@ -359,7 +359,7 @@ const HeaderTypSection = styled.header`
     }
 
     @media (min-width: 300px) and (max-width: 1024px) {
-        height: 700px;
+        height: 400px;
 
         h2 {
             font-size: 26px;
