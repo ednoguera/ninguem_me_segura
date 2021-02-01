@@ -7,7 +7,7 @@ const Footer = props => {
             <figure>
                 <img src={props.logo} />
             </figure>
-            <div>
+            {/* <div>
                 <a href="https://www.instagram.com/kenzieacademybr/" target="_blank">
                     <img src={props.instagram} />
                 </a>
@@ -17,7 +17,7 @@ const Footer = props => {
                 <a href="https://www.linkedin.com/school/kenzie-academy-brasil/" target="_blank">
                     <img src={props.linkedin} />
                 </a>
-            </div>
+            </div> */}
             <div>
                 <p>{props.copyrights}</p>
             </div>
