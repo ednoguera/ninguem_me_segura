@@ -46,13 +46,14 @@ const TitleContainer = styled.div`
     }
 
     @media (min-width: 300px) and (max-width: 1024px) {
-        width: 80%;
+        width: 100%;
         height: 150px;
-        margin: 5% 0 5% 10%;
+        margin: 0 auto;
 
         p {
             font-size: 16px;
-            width: 100%;
+            width: 280px;
+            margin: 0 auto;
         }
     }
 `
@@ -62,14 +63,13 @@ const SubTitleContainer = styled.div`
     width: 350px;
     
     img {
-        
+        margin-right: 2rem;    
     }
 
     p {
         text-align: left;
         color: #fff;
         font-size: 18px;
-        padding-left: 30px;
     }
 
     @media (min-width: 300px) and (max-width: 1024px) {
@@ -78,7 +78,8 @@ const SubTitleContainer = styled.div`
 
         p {
             font-size: 14px;
-            width: 100%;
+            width: 250px;
+            margin: 0 auto;
         }
     }
 `
@@ -147,7 +148,7 @@ const PreFooterSection = styled.section`
 `
 
 const PreFooterGroup = styled.div`
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -155,17 +156,13 @@ const PreFooterGroup = styled.div`
     @media (min-width: 300px) and (max-width: 1024px) {
         flex-direction: column;
 
-        p {
-            width: 90%;
-        }
+        
     }
 
     @media (min-width: 426px) and (max-width: 1740px) {
         width: 100%;
 
-        p {
-            width: 70%;
-        }
+        
     }
 `
 
@@ -184,17 +181,18 @@ const TitleImgContainer = styled.div`
         flex-direction: column;
         justify-content: center;
         margin: 0;
-        width: 80%;
+        
 
         p {
             font-size: 16px;
             color: #fff;
             width: 300px;
+            margin: 0 auto;
         }
 
         figure {
-           margin: 1rem;
-           padding: 40px 0 0 0;
+           margin-bottom: 1rem;
+           padding: 0 0 0 0;
         }
     }
 `
@@ -220,7 +218,7 @@ const HashSection = styled.div`
 
     @media (min-width: 300px) and (max-width: 1024px) {
         flex-direction: column;
-        width: 250px;
+        margin: 0 auto;
     }
 `
 
@@ -341,9 +339,9 @@ const Input = styled.input`
 
     @media (min-width: 300px) and (max-width: 1024px) {
         height: 52px;
-        width: 80%;
+        width: 264px;
         font-size: 20px;
-        margin-left: 10%;
+        margin: 0 auto;
     }
 `
 
@@ -362,8 +360,8 @@ const Button = styled.button`
 
     @media (min-width: 300px) and (max-width: 1024px) {
         height: 52px;
-        width: 82.5%;
-        margin-left: 10%;
+        width: 270px;
+        margin: 1rem auto;
     }
 `
 
