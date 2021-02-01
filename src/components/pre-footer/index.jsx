@@ -5,13 +5,16 @@ import Dani from '../assets/img/icons/dani/dani.png'
 import HashtagSection from '../../components/hashtag-section/'
 
 const PreFooter = (props) => {
+
+    const textTitle = <p>Daniel Kriger é CEO e co-fundador da Kenzie Academy, <strong>conhecido por colocar pessoas no mercado de tecnologia rapidamente</strong>, através de um novo modelo de ensino. Já ajudou dezenas de estudantes a mudarem de carreira e seu grande objetivo é <strong>transformar a vida de pessoas que querem aprender programação</strong> para conquistar vagas e <strong>bons salários</strong> no mercado de tecnologia.</p>
+
     return (
         <PreFooterSection>
             <PreFooterGroup>
                 <TitleContainer>
                     <p>{props.title}</p>
                 </TitleContainer>
-                <TitleImg img={Dani} title="Daniel Kriger é CEO e co-fundador da Kenzie Academy, conhecido por colocar pessoas no mercado de tecnologia rapidamente, através de um novo modelo de ensino. Já ajudou dezenas de estudantes a mudarem de carreira e seu grande objetivo é transformar a vida de pessoas que querem aprender programação para conquistar vagas e bons salários no mercado de tecnologia." />
+                <TitleImg img={Dani} title={textTitle} />
                 <HashtagSection />
             </PreFooterGroup>
         </PreFooterSection>
