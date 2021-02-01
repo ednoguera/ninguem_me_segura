@@ -382,7 +382,8 @@ const Input = styled.input`
     margin: 0 0 1rem 0;
     border-radius: 10px;
     outline: none;
-    font-size: 20px; 
+    font-size: 20px;
+    text-align: center; 
     color: #fff;
     font-weight: bold;
     background-color: #3C3C3C;
