@@ -75,6 +75,7 @@ const SubTitleContainer = styled.div`
     @media (min-width: 300px) and (max-width: 1024px) {
         width: 300px;
         margin-bottom: 1rem;
+        padding: 20px 0 0 0;
 
         p {
             font-size: 14px;
@@ -142,7 +143,7 @@ const PreFooterSection = styled.section`
 
     @media (min-width: 300px) and (max-width: 1024px) {
         flex-direction: column;
-        height: 950px;
+        height: 800px;
     }
     
 `
@@ -154,15 +155,11 @@ const PreFooterGroup = styled.div`
     justify-content: center;
 
     @media (min-width: 300px) and (max-width: 1024px) {
-        flex-direction: column;
-
-        
+        flex-direction: column;        
     }
 
     @media (min-width: 426px) and (max-width: 1740px) {
-        width: 100%;
-
-        
+        width: 100%;        
     }
 `
 
@@ -321,7 +318,7 @@ const Form = styled.form`
     @media (min-width: 300px) and (max-width: 1024px) {
         width: 100%;
         height: 250px;
-        padding: 0;
+        padding: 20px 0 20px 0;
     }
 `
 
