@@ -72,15 +72,68 @@ const SubTitleContainer = styled.div`
         font-size: 18px;
     }
 
-    @media (min-width: 300px) and (max-width: 1024px) {
+    @media (min-width: 300px) and (max-width: 374px) {
         width: 300px;
         margin-bottom: 1rem;
-        padding: 20px 0 0 0;
+        padding: 20px 0 0 2.5%;
 
         p {
             font-size: 14px;
             width: 250px;
             margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    @media (min-width: 375px) and (max-width: 424px) {
+        width: 300px;
+        margin-bottom: 1rem;
+        padding: 20px 0 0 10%;
+
+        p {
+            font-size: 14px;
+            width: 250px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    @media (min-width: 425px) and (max-width: 767px) {
+        width: 300px;
+        margin-bottom: 1rem;
+        padding: 20px 0 0 15%;
+
+        p {
+            font-size: 14px;
+            width: 250px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        width: 300px;
+        margin-bottom: 1rem;
+        padding: 20px 0 0 30%;
+
+        p {
+            font-size: 14px;
+            width: 250px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1339px) {
+        width: 300px;
+        margin-bottom: 1rem;
+        padding: 20px 0 0 35%;
+
+        p {
+            font-size: 14px;
+            width: 250px;
+            margin: 0 auto;
+            text-align: center;
         }
     }
 `
