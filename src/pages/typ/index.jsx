@@ -11,7 +11,7 @@ const ThankYouPage = () => {
 
     const url = "https://www.youtube.com/embed/E9HUaPeDY24"
 
-    const youtubeChannel = "https://www.youtube.com/c/KenzieAcademyBrasil"
+    const youtubeChannel = "https://www.youtube.com/KenzieAcademyBrasil?sub_confirmation=1"
     const telegramEvent = "https://t.me/semanaZeroAoJS"
 
     const { cian } = colors
