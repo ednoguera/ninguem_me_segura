@@ -1,6 +1,7 @@
 import React from "react"
 import { FormContainer, HeaderApp, TitleContainer, SubTitleContainer, ThumbHeader } from '../../styles/styled-components'
 import Subscribe from '../../helper/subscribe'
+import ActiveCampForm from '../../components/active_campaign_form/'
 
 
 
@@ -14,8 +15,10 @@ const Header = (props) => {
                 </TitleContainer>
                 <FormContainer>
                     {
-                        <Subscribe />
+                        // <Subscribe />
                     }
+                    <ActiveCampForm />
+
                     <SubTitleContainer>
                         <img src={props.getImage} />
                         <p>{props.subTitle}</p>
