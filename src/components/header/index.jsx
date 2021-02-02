@@ -18,7 +18,7 @@ const Header = (props) => {
                         // <Subscribe />
                     }
                     <ActiveCampForm />
-                    <div class="_form_1">teste</div><script src="https://kenzie80793.activehosted.com/f/embed.php?id=1" type="text/javascript" charset="utf-8"></script>
+
                     <SubTitleContainer>
                         <img src={props.getImage} />
                         <p>{props.subTitle}</p>

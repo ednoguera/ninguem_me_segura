@@ -12,14 +12,11 @@ const ActiveCampForm = () => {
             <input type="hidden" name="act" value="sub" />
             <input type="hidden" name="v" value="2" />
 
-
             <Input type="text" name="email" placeholder="Insira aqui seu melhor e-mail" required />
 
             <Button id="_form_1_submit" class="_submit" type="submit">
                 Fazer meu cadastro
-                    </Button>
-
-
+            </Button>
         </Form>
     )
 }
