@@ -352,6 +352,7 @@ const HeaderTypSection = styled.header`
         border-radius: 10px;
         border: none;
         outline: none;
+        cursor: pointer;
 
         margin: 16px;
         font-size: 18px;
